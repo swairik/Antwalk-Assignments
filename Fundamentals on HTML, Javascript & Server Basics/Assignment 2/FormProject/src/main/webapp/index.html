@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>My Form</title>
+	<!-- 
+	 -->
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<div class="container">
+		<form action="register" method="post" id="register-form" align="center" border=2px>
+			<h1>My Form</h1>
+			<table align="center">
+				<tr><td>Enter your name:</td><td><input type="text" name="name"><br></td></tr>
+				<tr><td>Enter your password:</td><td><input type="password" name="password"><br></td></tr>
+				<tr><td>Enter your email:</td><td><input type="text" name="email"><br></td></tr>
+				<tr><td>Select Gender:</td><td><input type="radio" name="gender" value="Male">Male
+				<input type="radio" name="gender" value="Female">Female<br></td></tr>
+				<tr><td>Select your course:</td><td> 
+					<select name="course">
+						<option value="select-a-course">Select a course</option>
+						<option value="Java">Java</option>
+						<option value="Python">Python</option>
+						<option value="Kotlin">Kotlin</option>
+						<option value="cpp">cpp</option>
+					</select><br></td></tr>
+			</table>
+			<input type="checkbox" name="ckbox"/> Agree to terms and conditions 
+			<br/>
+			<input type="submit" >
+			<input type="reset" >
+		</form>
+	</div>
+</body>
+</html>
