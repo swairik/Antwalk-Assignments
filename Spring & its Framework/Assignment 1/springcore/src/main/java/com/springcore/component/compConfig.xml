@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd"
+    >
+
+	<context:component-scan base-package="com.springcore.component"></context:component-scan>	
+	
+	<util:list list-class="java.util.ArrayList" id="aList">
+		<value>Delhi</value>
+		<value>Amritsar</value>
+		<value>Chandigarh</value>
+	</util:list>
+	
+	<util:list list-class="java.util.ArrayList" id="contactList">
+		<value>9876543210</value>
+		<value>12345678690</value>
+		<value>5678941230</value>
+	</util:list>
+	
+	<util:list list-class="java.util.ArrayList" id="projectList">
+		<value>Project A</value>
+		<value>Project B</value>
+		<value>Project C</value>
+	</util:list>
+	
+	
+	
+</beans>
