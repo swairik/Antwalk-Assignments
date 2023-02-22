@@ -54,5 +54,4 @@ public class Empl {
 	public String toString() {
 		return "Empl [id=" + id + ", name=" + name + ", salary=" + salary + ", designation=" + designation + "]";
 	}
-	
 }
